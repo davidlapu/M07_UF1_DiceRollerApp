@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public int random6() {
-        return (int) (Math.random() * ((6 - 1) + 1));
+        return (int) (Math.random() * 6);
     }
 }
