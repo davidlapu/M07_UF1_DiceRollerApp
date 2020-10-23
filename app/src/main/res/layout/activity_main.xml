@@ -21,9 +21,22 @@
         android:id="@+id/roll_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
         android:background="#E30014"
         android:text="@string/button_text"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:background="#E30014"
+        android:text="@string/reset_dice"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold" />
